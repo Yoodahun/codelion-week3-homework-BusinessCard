@@ -207,8 +207,10 @@ function App() {
                     My Business Card
                 </div>
                 <Alert onClick={getUserData} variant={"balance"} style={{backgroundColor: "#f40075"}}>
+                    <div>
                     {myAddress !== DEFAULT_ADDRESS ? `${myAddress}` : "지갑 연동하기"
                     }
+                    </div>
                 </Alert>
                 <br/>
                 {qrvalue !== 'DEFAULT' ?

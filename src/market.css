@@ -4,6 +4,9 @@
     line-height: 1;
     text-align: right;
     font-weight: bold;
+}
+
+.alert-balance > div {
     font-size: 90%;
 }
 
