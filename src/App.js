@@ -206,13 +206,13 @@ function App() {
                 }}>
                     My Business Card
                 </div>
-                <Alert onClick={getUserData} variant={"balance"} style={{backgroundColor: "#f40075", fontSize: 25}}>
+                <Alert onClick={getUserData} variant={"balance"} style={{backgroundColor: "#f40075", fontSize: "large", paddingTop:22}}>
                     {myAddress !== DEFAULT_ADDRESS ? `${myAddress}` : "지갑 연동하기"
                     }
                 </Alert>
                 <br/>
-
                 {qrvalue !== 'DEFAULT' ?
+
                     <Container style={{
                         backgroundColor: 'white',
                         width: 300,
