@@ -1,4 +1,4 @@
-import {ACCESS_KEY_ID, SECRET_KEY_ID, CHAIN_ID} from '../constants/constant.bobbab';
+import {ACCESS_KEY_ID, SECRET_KEY_ID, CHAIN_ID} from '../constants/index';
 import Caver from "caver-js";
 
 /**
@@ -8,16 +8,16 @@ import Caver from "caver-js";
 
 
 // Header
-const header = {
+export const header = {
     headers: [{
-        name: "Authorization",
-        value: "Basic " + Buffer.from(ACCESS_KEY_ID + ":" + SECRET_KEY_ID).toString("base64")
-    },
-        {
-            name: "x-chain-id", value: CHAIN_ID
+         name: "Authorization",
+         value: "Basic " + Buffer.from(ACCESS_KEY_ID + ":" + SECRET_KEY_ID).toString("base64")
+     },
+         {
+             name: "x-chain-id", value: CHAIN_ID
 
-        }
-    ]
+         }
+     ]
 }
 
 /**
