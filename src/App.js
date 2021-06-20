@@ -206,7 +206,7 @@ function App() {
                 }}>
                     My Business Card
                 </div>
-                <Alert onClick={getUserData} variant={"balance"} style={{backgroundColor: "#f40075", fontSize: "large", paddingTop:22}}>
+                <Alert onClick={getUserData} variant={"balance"} style={{backgroundColor: "#f40075"}}>
                     {myAddress !== DEFAULT_ADDRESS ? `${myAddress}` : "지갑 연동하기"
                     }
                 </Alert>

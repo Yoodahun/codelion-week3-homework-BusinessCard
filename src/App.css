@@ -20,3 +20,8 @@ body{
   background-color: antiquewhite;
   color: black;
 }
+
+.alert {
+  font-size: 3.3vw;
+  padding-top: 0.5vh ;
+}
