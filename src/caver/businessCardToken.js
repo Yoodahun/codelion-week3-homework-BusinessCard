@@ -1,4 +1,3 @@
-import Caver from 'caver-js';
 import BusinessCardABI from '../abi/BusinessCardABI.json';
 import {caver} from './requestHeader';
 import {NFT_TOKEN_CONTRACT_ADDRESS, SEND_BUSINESS_CONTRACT_ADDRESS} from '../constants/index';

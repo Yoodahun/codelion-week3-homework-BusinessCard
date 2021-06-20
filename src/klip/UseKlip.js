@@ -1,11 +1,7 @@
 import axios from "axios";
 import {
-    COUNT_CONTRACT_ADDRESS,
-    MARKET_CONTRACT_ADDRESS,
     NFT_TOKEN_CONTRACT_ADDRESS,
-    SEND_BUSINESS_CONTRACT_ADDRESS
 } from "../constants/index";
-// import CounterABI from "../abi/CounterABI.json";
 
 
 const PREPARE = 'https://a2a-api.klipwallet.com/v2/a2a/prepare';
